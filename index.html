@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta name="theme-color" content="#1a1a2e">
+  <link rel="manifest" href="manifest.json">
   <title>Emoji Clash</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -137,6 +138,11 @@
         loadScript(scripts[idx++], next, next);
       }
       next();
+    }
+
+    // Register service worker for PWA
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
     }
 
     setProgress(5, 'Loading engine...');

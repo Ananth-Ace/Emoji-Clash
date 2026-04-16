@@ -1,0 +1,24 @@
+{
+  "name": "Emoji Clash",
+  "short_name": "EmojiClash",
+  "description": "Arena Battle of the Emojis — 3-lane strategy game",
+  "start_url": "/Emoji-Clash/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "icons": [
+    {
+      "src": "https://ananth-ace.github.io/Emoji-Clash/icon/icon_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://ananth-ace.github.io/Emoji-Clash/icon/icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
