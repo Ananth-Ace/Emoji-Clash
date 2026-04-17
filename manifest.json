@@ -2,7 +2,7 @@
   "name": "Emoji Clash",
   "short_name": "EmojiClash",
   "description": "Arena Battle of the Emojis — 3-lane strategy game",
-  "id": "com.emojiclash.game",
+  "id": "com.ananth.emojiclash",
   "start_url": "/Emoji-Clash/",
   "scope": "/Emoji-Clash/",
   "display": "fullscreen",
